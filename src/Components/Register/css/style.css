@@ -1,0 +1,140 @@
+.cantainer {
+  max-width: 700px;
+  width: 100%;
+  background-color: none;
+  color: aliceblue;
+  padding: 25px 30px;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid white;
+  margin-left: 460px;
+  margin-bottom: 100px;
+  height: 600px;
+}
+
+.cantainer .title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.cantainer .title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.cantainer form .user-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px 0 12px 0;
+}
+
+.cantainer form .user-details .input-box {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  width: calc(100% / 2 - 20px);
+}
+
+.cantainer form .user-details .input-box .details {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.cantainer form .user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.cantainer form .user-details .input-box input:focus, .cantainer form .user-details .input-box input :valid {
+  border-color: #9b59b6;
+}
+
+.cantainer form .gender-details .gender-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.cantainer form .gender-details .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 14px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cantainer form .gender-details .category label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cantainer form .gender-details .category .dot {
+  height: 18px;
+  width: 18px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 5px solid transparent;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.cantainer form .gender-details #dot-1:checked ~ .category label .one {
+  background-color: #d9d9d9;
+  background: #9b59b6;
+}
+
+.cantainer form .gender-details #dot-2:checked ~ .category label .two {
+  background-color: #d9d9d9;
+  background: #9b59b6;
+}
+
+.cantainer form .gender-details #dot-3:checked ~ .category label .tree {
+  background-color: #d9d9d9;
+  background: #9b59b6;
+}
+
+.cantainer form input[type="radio"] {
+  display: none;
+}
+
+.cantainer form .button {
+  height: 46px;
+}
+
+.cantainer form .button input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.cantainer form .button input:hover {
+  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,47 @@
+.container{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        color : whitesmoke;
+        border: 1px solid white;
+        padding: 40px ;
+        .carousel-item{
+            width: 400px;
+            height: 400px;
+            img{
+                border-radius: 15px ;
+                height: 100%;
+            }
+        }
+        .newarrival{
+            background-color: green;
+            width: 50px;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .col-md-7{
+            h2{
+                color:rgb(194, 194, 194);
+            }
+            .Price{
+                color: #FE980F;
+                font-size: 26px;
+                font-weight: bold;
+                padding-top: 20px;
+            }
+            input{
+                border: 1px solid #ccc;
+                font-weight: bold;
+                height: 33px;
+                text-align: center;
+                width: 30px;
+            }
+            .addcart{
+                background-color: #FE980F;
+                color: #FFF;
+                font-size: 15px;
+                margin-left: 20px;
+                
+            }
+        }
+}

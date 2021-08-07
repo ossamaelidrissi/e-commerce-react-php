@@ -1,0 +1,24 @@
+@mixin widthHight($px) {
+    width: $px;
+    height: $px;
+}
+@mixin Color($color) {
+    color: $color;
+    border-color: $color;
+}
+@mixin thePadding($px) {
+    padding-right: $px;
+    padding-left:  $px;
+}
+@mixin custom($color) {
+    background:   $color;
+    border-color: $color;
+}
+@mixin Hover($color) {
+    &::before{
+        color: $color;
+    }
+    &::after{
+        color: $color;
+    }
+}

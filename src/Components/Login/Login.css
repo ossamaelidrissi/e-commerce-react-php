@@ -1,0 +1,79 @@
+.wrapper {
+  width: 400px;
+  height: 450px;
+  color: white;
+  margin-left: 600px;
+  margin-bottom: 159px;
+  margin-top: 70px;
+  padding: 60px 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 8px 8px 50px #b5b5b5;
+          box-shadow: 8px 8px 50px #b5b5b5;
+}
+
+.wrapper h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 8%;
+  font-family: Courgette;
+}
+
+.wrapper input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.wrapper input[type=text], .wrapper input[type=password] {
+  border: none;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+  opacity: 1;
+  color: #ccc;
+}
+
+.wrapper input[type=submit] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #f6648b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.wrapper input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.wrapper input[type=submit] a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.wrapper input[type=submit] a:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.wrapper input[type=submit] .bottom_text {
+  color: #fff;
+}
+
+.wrapper input[type=submit] .bottom_text input {
+  width: 10%;
+  float: left;
+}
+
+.wrapper input[type=submit] .bottom_text a {
+  float: right;
+}
+/*# sourceMappingURL=Login.css.map */

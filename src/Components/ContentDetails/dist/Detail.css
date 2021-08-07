@@ -1,0 +1,44 @@
+.container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: whitesmoke;
+  border: 1px solid white;
+  padding: 40px;
+}
+.container .carousel-item {
+  width: 400px;
+  height: 400px;
+}
+.container .carousel-item img {
+  border-radius: 15px;
+  height: 100%;
+}
+.container .newarrival {
+  background-color: green;
+  width: 50px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.container .col-md-7 h2 {
+  color: #c2c2c2;
+}
+.container .col-md-7 .Price {
+  color: #FE980F;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.container .col-md-7 input {
+  border: 1px solid #ccc;
+  font-weight: bold;
+  height: 33px;
+  text-align: center;
+  width: 30px;
+}
+.container .col-md-7 .addcart {
+  background-color: #FE980F;
+  color: #FFF;
+  font-size: 15px;
+  margin-left: 20px;
+}
